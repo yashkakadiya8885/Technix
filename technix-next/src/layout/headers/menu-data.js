@@ -7,7 +7,7 @@ const menu_data = [
     has_dropdown: false,
     home_icon: <HomeIcon />,
     title: "Home",
-    link: "/",
+    link: "",
     active: "",
     sub_menus: [ 
       // { link: "/", title: "Home 1" },

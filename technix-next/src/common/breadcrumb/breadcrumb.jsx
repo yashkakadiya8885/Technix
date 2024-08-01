@@ -19,7 +19,7 @@ const Breadcrumb = ({top_title = "Our Company", page_title = "Our Company"}) => 
                   <Image src={breadcrumb_img} alt="theme-pure" />
                 </h3>
                 <div className="breadcrumb__list breadcrumb__list-translate">
-                  <span> <Link href="/">Home</Link> </span>
+                  <span> <Link href="/home-3">Home</Link> </span>
                   <span className="dvdr"><i className="fa-regular fa-angle-right"></i></span>
                   <span>pages</span>
                   <span className="dvdr"> <i className="fa-regular fa-angle-right"></i> </span>
