@@ -4,11 +4,12 @@ import React from "react";
 import PortfolioArea from "./portfolio-area";
 import FooterContact from "@/src/layout/footers/footer-contact";
 import FooterThree from "@/src/layout/footers/footer-3";
+import HeaderThree from "@/src/layout/headers/header-3";
 
 const Portfolio = () => {
   return (
     <>
-      <HeaderOne />
+      <HeaderThree/>
       <main>
         <Breadcrumb top_title="IT Advisor"  page_title="Portfolio" />
         <PortfolioArea />

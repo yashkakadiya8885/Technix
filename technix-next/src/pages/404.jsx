@@ -6,13 +6,14 @@ import SEO from "../common/seo";
 import HeaderOne from "../layout/headers/header";
 import error_shape from "@assets/img/error/error-shape.png";
 import error_img from "@assets/img/error/404.png";
+import HeaderThree from "../layout/headers/header-3";
 
 
 const index = () => {
   return (
     <>
     <SEO pageTitle={"Oops.! Page Not Found!"} /> 
-    <HeaderOne />
+    <HeaderThree />
       <div id="smooth-wrapper">
         <div id="smooth-content">
           <main>

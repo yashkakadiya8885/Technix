@@ -5,8 +5,8 @@ import AngleArrow from '@/src/svg/angle-arrow';
 import VideoPopup from '@/src/modals/video-popup';
 // about img import here
 import about_img_1 from "@assets/img/about/home-3/shape-4.png";
-import about_img_2 from "@assets/img/about/home-3/img-1.jpg";
-import about_img_3 from "@assets/img/about/home-3/img-2.jpg";
+import about_img_2 from "@assets/img/about/home-3/our-img-2.jpg";
+import about_img_3 from "@assets/img/about/home-3/Our-img-1.jpg";
 import about_img_4 from "@assets/img/about/home-3/img-3.jpg";
 // about shape import here
 import about_shape_1 from "@assets/img/about/home-3/shape-1.png";
@@ -70,15 +70,18 @@ const AboutArea = ({about}) => {
                         <div className="tp-about-3-wrapper">
                             <div className="tp-about-3-title-wrapper"> 
                                 <span className="tp-section-title__pre">
-                                    about <span className="title-pre-color">IT Solutions</span>
+                                    about <span className="title-pre-color">Our Company</span>
                                     <AngleArrow /> 
                                 </span>
                                 <h3 className="tp-section-title">
-                                    Best Digital <span className="title-color">Technology</span> <br /> Agency For People
+                                Top Digital <span className="title-color">Innovation & IT Solution</span> <br />Services
                                 </h3> 
                             </div>
                             <p className="text">
-                                Transmax is the world’s driving worldwide coordinations supplier — we <br /> uphold industry and exchange the worldwide trade of merchandise <br /> through land transport.
+                            We aim to our punch line to deliver Accurate and Consistent service On Time. We consistently deliver professional and scalable web solutions and creative web designs that reflect the needs and vision of our clients.
+                            </p>
+                            <p className="text">
+                           We excel in creating tailored and open-source web solutions. Our expertise includes custom applications, SaaS products, e-commerce platforms, finance applications, integration of open-source systems, and innovative web designs. We've been delivering exceptional digital experiences and comprehensive solutions to meet diverse business needs.
                             </p>
                             <div className="tp-about-progressbar-inner d-flex flex-wrap pt-20">
                             <div className="tp-about-3-progressbar d-flex align-items-center">
@@ -109,11 +112,11 @@ const AboutArea = ({about}) => {
                             </div>
                             <div className="tp-about-3-btn-inner d-flex flex-wrap">
                             <div className="tp-about-btn ">
-                                <Link className="tp-btn" href="/about">Our History 
+                                <Link className="tp-btn" href="/about">Contact us
                                     <i className="fa-regular fa-arrow-right-long"></i>
                                 </Link>
                             </div>
-                            <div className="tp-about-3-year">
+                            {/* <div className="tp-about-3-year">
                                 <p>
                                     BRENDON GARREY
                                     <br />
@@ -121,7 +124,7 @@ const AboutArea = ({about}) => {
                                         mayor, since 21st Oct , 2019
                                     </span>
                                 </p>
-                            </div>
+                            </div> */}
                             </div>
                         </div>
                     </div>

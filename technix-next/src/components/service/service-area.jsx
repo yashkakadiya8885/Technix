@@ -24,8 +24,7 @@ const ServiceArea = () => {
                     <div className="col-lg-6">
                         <div className="tp-service-breadcrumb-title-wrapper justify-content-start justify-content-xl-end d-flex">
                             <p>
-                                As the complexity of buildings to increase, the field of architecture <br />
-                                became multi-disciplinary with technological expertise.
+                            As technology evolves and businesses grow more complex, our IT services have become multidisciplinary, integrating cutting-edge expertise across various domains to deliver comprehensive solutions.
                             </p>
                         </div>
                     </div>

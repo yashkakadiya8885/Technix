@@ -8,7 +8,7 @@ const Breadcrumb = ({top_title = "Our Company", page_title = "Our Company"}) => 
     <>
       <section
         className="breadcrumb__area breadcrumb-style pt-190 pb-210 p-relative z-index-1"
-        style={{backgroundImage: `url(/assets/img/breadcrumb/breadcrumb-bg-1.jpg)`}}>
+        style={{backgroundImage: `url(/assets/img/breadcrumb/routin_1.jpg)`}}>
         <div className="breadcrumb__bg-overlay m-img"></div>
         <div className="container">
           <div className="row justify-content-center">
@@ -18,8 +18,8 @@ const Breadcrumb = ({top_title = "Our Company", page_title = "Our Company"}) => 
                   {top_title}
                   <Image src={breadcrumb_img} alt="theme-pure" />
                 </h3>
-                <div className="breadcrumb__list breadcrumb__list-translate">
-                  <span> <Link href="/home-3">Home</Link> </span>
+                <div className="breadcrumb__list breadcrumb__list-translate font-weight-bold ">
+                  <span className="font-weight-bold"> <Link href="/home-3">Home</Link> </span>
                   <span className="dvdr"><i className="fa-regular fa-angle-right"></i></span>
                   <span>pages</span>
                   <span className="dvdr"> <i className="fa-regular fa-angle-right"></i> </span>
